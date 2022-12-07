@@ -1,0 +1,123 @@
+
+a{
+    text-decoration: none;
+    font-family: Dosis, sans-serif;
+    font-size: 20PX;
+    color: white;
+}
+header {                 
+    background-color: green;
+padding: 40px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: black;        
+    align-items: center;      
+    
+margin: 0 20px;
+}
+.navcentre, .navright{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    color: black;        
+    align-items: center;       
+}
+
+.banner{
+    padding: 300px;
+    background-image: url(image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.banner p{
+    text-align: center;
+}
+.banner button {
+padding: 20px 30px;
+border: none;
+border-radius: 20px;
+}
+.banner button a{
+    color: black;
+}
+.banner h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: black(22, 22, 255, 0.975);
+    padding-bottom: 2px;
+}
+.banner p{
+    font-size: 30px;
+    font-weight: 400;
+}
+.Do{
+    text-align: center;
+    padding: 50px 0;
+}
+.Do h1, #Ch h1{
+    font-size: 30px;
+    color: blue;
+    font-size: 40px;
+}
+.Do button{
+padding: 20px 0;
+margin: 10px 0;
+font-size: 20px;
+line-height: 30px;
+}
+#Ch{
+    text-align: center;
+    justify-content: space-between;
+    color: black;        
+    align-items: center; 
+}
+.Topics{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#CSV{
+    background-color: rgb(207, 15, 121);
+    color: white;
+    padding: 20px;
+margin: 0 10px;
+    }
+#CSV button{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 20px;
+}
+#ADF{
+    padding: 50px 0;
+    text-align: center;
+    justify-content: space-between;
+    color: black;        
+    align-items: center; 
+}
+.Last{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#CSSV{
+    background-color: rgb(207, 15, 121);
+    color: white;
+    padding: 20px;
+margin: 0 10px;
+    }
+#CSSV button{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    
+}
